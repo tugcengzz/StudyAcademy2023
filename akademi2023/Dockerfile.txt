@@ -1,0 +1,14 @@
+# Base image belirleme
+FROM python:3.9
+
+# Uygulama dosyalarını çalışma dizinine kopyalama
+COPY . /app
+
+# Uygulama dizinine geçiş yapma
+WORKDIR /app
+
+# Gerekli paketleri yükleme
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Uygulamayı çalıştırma
+CMD ["python", "app.py"]
