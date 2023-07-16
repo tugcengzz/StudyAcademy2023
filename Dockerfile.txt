@@ -1,0 +1,15 @@
+# Docker taban imajını belirleyin
+FROM python:3.9
+
+# Uygulama için bir çalışma dizini belirleyin
+WORKDIR /app
+
+# Gerekli bağımlılıkları kopyalayın ve yükleyin
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Uygulama dosyalarını kopyalayın
+COPY . .
+
+# Uygulamanın çalışacağı komutu belirleyin
+CMD ["python", "app.py"]
