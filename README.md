@@ -34,4 +34,4 @@ Uygulama loglarını kontrol etttim ve herhangi bir hata veya hata mesajı varsa
 
 
 
-fotoğrafları wordde dzenli bir şekilde açıkladım ve mail attım
+fotoğrafları wordde dzenli bir şekilde açıkladım ve mail attımve githuba da ekledim
