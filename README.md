@@ -9,3 +9,5 @@ BestCloudFor.Me Academy2023 Case
 
 # Docker Hub Repositories
 * docker pull tugcecengiz/my-image-repo:latest
+
+Case study dosyası bilgisayarımdan kaynaklı çalışır görüntüleri kesince süre içerisinde yüklemek için rapor hazırlığı yaptığım aşamalar dosyasını hızlıca yükledim bu sebeple biraz düzensiz fakat daha sonra repoma Study_Case_Step adlı pdf'i yükledim raporun süre içerisinde yaptığım aşamalar dosyasının düzenli haline Study_Case_Step.pdf'ten ulaşabilirsiniz.
